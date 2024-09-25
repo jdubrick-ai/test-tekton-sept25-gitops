@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-tekton-sept25-model-config
+data:
+  MODEL_ENDPOINT: "http://test-tekton-sept25-model-server:8001"
